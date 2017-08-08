@@ -8,3 +8,7 @@ This purpose of this project is to show how to use Maven and Jenkins together.
 Updates, 
 
 and more updates
+
+## Deployment
+
+This is web based project. So need to build a war file and should access it through localhost.
