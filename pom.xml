@@ -44,6 +44,14 @@
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>findbugs-maven-plugin</artifactId>
                     <version>3.0.1</version>
+		    <configuration>
+                    	<findbugsXmlOutput>true</findbugsXmlOutput>
+                    	<findbugsXmlWithMessages>true</findbugsXmlWithMessages>
+      			<!--xmlOutput>true</xmlOutput-->
+                    	<effort>Max</effort>
+                    	<threshold>Low</threshold>
+                    	<xmlOutput>true</xmlOutput>
+                </configuration>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -68,7 +76,7 @@
                 <configuration>
 		    <findbugsXmlOutput>true</findbugsXmlOutput>
                     <findbugsXmlWithMessages>true</findbugsXmlWithMessages>
-      <!--xmlOutput>true</xmlOutput-->
+      		    <!--xmlOutput>true</xmlOutput-->
                     <effort>Max</effort>
                     <threshold>Low</threshold>
                     <xmlOutput>true</xmlOutput>
