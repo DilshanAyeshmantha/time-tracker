@@ -15,5 +15,9 @@
   <p>
     This is a very simple example web page on a JSP.
   </p>
+  <p>
+    Hope you like this web page very much.
+  <h3>More contents are comming soon..!!</h3>
+  </p>
 </body>
 </html>
